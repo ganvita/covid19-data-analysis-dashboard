@@ -44,8 +44,6 @@ The dashboard includes:
 ## 🚀 How to Reproduce
 1. **Get the Data**  
    - Download [owid-covid-data.csv](https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv)
-   - Or use the copy included in this repo under `/data/owid-covid-data.csv`
-   - Place it in the `data/` folder  
 
 2. **Load into SQL**  
    - Use [SQLite Online](https://sqliteonline.com/) (no install needed)  
