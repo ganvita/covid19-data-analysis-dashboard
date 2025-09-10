@@ -30,8 +30,10 @@ A practice project to **clean, analyze, and visualize COVID-19 data** using **SQ
 
 ## 📈 Dashboard Preview
 - 📊 [View the Dashboard (Google Sheets)](https://docs.google.com/spreadsheets/d/17CPZ-7DM4y4v5rDIuVh5YKz7eC9bcF_QDcbYN7O9lTA/edit?usp=sharing)  
-- ⬇️ Or download the Excel export: `reports/covid19_dashboard.xlsx`  
-- 🖼️ A preview screenshot is included in `reports/dashboard_screenshot.png`  
+- ⬇️ **Download the Excel dashboard:** [covid19_dashboard.xlsx](reports/covid19_dashboard.xlsx)
+
+- 🖼️ A preview screenshot is included [![Dashboard Screenshot](reports/dashboard_screenshot.png)](reports/dashboard_screenshot.png)
+  
 
 The dashboard includes:  
 - Line charts → Daily new cases & deaths  
@@ -50,10 +52,11 @@ The dashboard includes:
    - Import the CSV as `covid19_raw`
 
 3. **Run SQL Scripts** (see `sql/` folder)  
-   - `create_table.sql` → Create schema  
-   - `cleaning.sql` → Clean and format data  
-   - `analysis.sql` → Generate insights  
-   - `dashboard_queries.sql` → Prepare data for charts  
+   - [`create_table.sql`](sql/create_table.sql) → Create schema
+   - [`cleaning.sql`](sql/cleaning.sql) → Clean and format data
+   - [`analysis.sql`](sql/analysis.sql) → Generate insights
+   - [`dashboard_queries.sql`](sql/dashboard_queries.sql) → Prepare data for charts
+
 
 4. **Export Results**  
    - Save query outputs as CSV  
