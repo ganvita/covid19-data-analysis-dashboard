@@ -6,7 +6,7 @@ A practice project to **clean, analyze, and visualize COVID-19 data** using **SQ
 
 ## 📊 Dataset
 - **Source:** [Our World in Data – COVID-19](https://github.com/owid/covid-19-data)  
-- **Direct CSV:** [owid-covid-data.csv](https://covid.ourworldindata.org/data/owid-covid-data.csv)  
+- **Direct CSV:** [owid-covid-data.csv](https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv)  
 - **Description:** Daily COVID-19 data on cases, deaths, vaccinations, and population for all countries and regions.  
 
 ---
